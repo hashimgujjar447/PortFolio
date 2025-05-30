@@ -1,0 +1,83 @@
+.footer-section {
+  padding: 20px 80px 20px;
+  /* background-color: #050709; */
+  background-image: linear-gradient(
+    to right,
+    #0f0715,
+    #110818,
+    #100716,
+    #271644,
+    #48335d
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-logo img {
+  width: 75px;
+  height: auto;
+}
+.footer-links .nav-list {
+  display: flex;
+  gap: 2rem;
+}
+.footer-links .nav-list .nav-item .nav-link {
+  color: #fff;
+  font-weight: 800;
+  /* padding-left: 20px; */
+}
+.footer-section .rights p {
+  color: #8750f7;
+}
+
+@media (width<=480px) {
+  .test-text .test-subheading {
+    font-size: 15px;
+    color: #ddd;
+  }
+
+  .footer-links .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .link {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .footer-section .rights p {
+    color: #8750f7;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-section {
+    padding: 40px 160px 40px;
+    gap: 4rem;
+  }
+
+  .footer-logo img {
+    width: 90px;
+  }
+
+  .footer-links .nav-list {
+    gap: 3rem;
+  }
+
+  .footer-links .nav-list .nav-item .nav-link {
+    font-size: 18px;
+  }
+
+  .footer-section .rights p {
+    font-size: 18px;
+  }
+}
