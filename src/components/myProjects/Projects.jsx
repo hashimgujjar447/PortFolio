@@ -3,6 +3,12 @@ import "./Projects.css";
 
 const projectsData = [
   {
+    title: "Brand Ecommerce Fullstack Design",
+    description:
+      "This project is a full-stack e-commerce application built with React, Node.js, Express, and MongoDB. It features user authentication, product management, and a shopping cart system.",
+    githubLink: "https://github.com/hashimgujjar447/ecommerce-fullstack-design",
+  },
+  {
     title: "To-Do List App",
     description:
       "This is a simple Todo application built with React. It allows users to add, delete, and mark tasks as completed.",
