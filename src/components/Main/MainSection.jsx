@@ -18,7 +18,11 @@ const MainSection = () => {
               focussed solutions that connect billions of people
             </p>
             <div className="hero-button link">
-              <a href="/my-cv.pdf" download className="hero-btn">
+              <a
+                href="/Muhammad-Hashim-resume-mern-stack.pdf"
+                download
+                className="hero-btn"
+              >
                 Download CV
               </a>
 
